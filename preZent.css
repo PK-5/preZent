@@ -1,3 +1,8 @@
+html{
+
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .indexbody{
     background-color: #adb6c4;
 }
@@ -41,8 +46,8 @@ font-size:10vw;
             position: absolute; /* Position them relative to the browser window */
             left: -110px; /* Position them outside of the screen */
             transition: 0.3s; /* Add transition on hover */
-            padding: 15px; /* 15px padding */
-            width: 140px; /* Set a specific width */
+            padding: 12px; /* 15px padding */
+            width: 145px; /* Set a specific width */
             text-decoration: none; /* Remove underline */
             font-size: 20px; /* Increase font size */
             color: black; /* Black text color */
@@ -86,7 +91,7 @@ font-size:10vw;
 
           .fa-user-circle{
             font-size: 20px;
-            padding-left: 20px;
+            padding-left: 15px;
           }
 
           .fa-calendar-day{
@@ -101,7 +106,7 @@ font-size:10vw;
 
          .fa-pencil-alt{
           font-size: 20px;
-          padding-left: 50px;
+          padding-left: 43px;
          }
 
          @media screen and (max-width:700px) {
@@ -125,7 +130,7 @@ font-size:10vw;
 
           .fa-user-circle{
             font-size: 15px;
-            padding-left: 33px;
+            padding-left: 30px;
           }
 
           .fa-calendar-day{
@@ -140,17 +145,20 @@ font-size:10vw;
 
          .fa-pencil-alt{
           font-size: 15px;
-          padding-left: 55px;
+          padding-left: 50px;
          }
            
          }
-/* Table*/
+
+/* Planner Page */
+
+/* Planner (Table)*/
 
          table {
           font-family: arial, sans-serif;
           border-collapse: collapse;
           width: 80%;
-          margin-left: 70px;
+          margin-left: 200px;
         }
         
         td, th {
@@ -164,9 +172,72 @@ font-size:10vw;
         }
 
         .planner{
+          padding-left: 200px;
+        }
 
+        .plan-row{
+          width: 2000px;
+        }
+
+
+        .atdbody{
+          background-color: #adb6c4;
+        }
+
+
+      /*Attendance Page */
+
+      .atdtitle{
+        padding-left: 200px;
       }
 
+      .atd2{
+         color: black;
+         
+      }
+
+
+      /* Attendance Flip cards */
+      .flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  padding-left: 200px;
+  padding-top: 5%;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-image:url("https://scontent.fakl5-1.fna.fbcdn.net/v/t1.6435-9/107516066_101055118355759_1655349980660653969_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=15Ulos2s3E4AX8m6IOM&_nc_ht=scontent.fakl5-1.fna&oh=00_AT_EeY7Q0CupaoGqjAOJVWBOI4gI9EO4m5f0GFGy41WWcQ&oe=625DEEF2");
+  color: white;
+}
+
+.flip-card-back {
+  background-color: #FFEFD3;
+  color: black;
+  transform: rotateY(180deg);
+}
 
          
           
