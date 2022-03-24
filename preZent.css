@@ -286,6 +286,19 @@ font-size:10vw;
 .schbody{
   background-color: #ADB6C4;
 }
+
+.sch-head{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px; 
+  width: 15%;
+}
+
+.sch-table-top{
+  font-weight: bold;
+  height: 150px;
+  width:5%
+}
          
           
 
