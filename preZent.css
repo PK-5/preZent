@@ -155,7 +155,7 @@ font-size:10vw;
 /* Planner (Table)*/
 
          table {
-          font-family: arial, sans-serif;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
           width: 80%;
           margin-left: 200px;
         }
@@ -209,6 +209,35 @@ font-size:10vw;
          
       }
 
+      .class-head{
+        width: 60%
+      }
+
+      .atdcol{
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        height: 30px;
+      }
+      table {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        width: 80%;
+        margin-left: 200px;
+      }
+
+      th{
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px; 
+      }
+     
+      .atdcol-head{
+        font-weight: bold;
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        height: 60px;
+      }
 
       /* Attendance Flip cards */
       .flip-card {
@@ -252,6 +281,11 @@ font-size:10vw;
   transform: rotateY(180deg);
 }
 
+/* Schedule page */
+
+.schbody{
+  background-color: #ADB6C4;
+}
          
           
 
