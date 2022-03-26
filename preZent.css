@@ -299,6 +299,25 @@ font-size:10vw;
   height: 150px;
   width:5%
 }
+
+/*calendar page */
+
+.calender{
+  text-align: center;
+  color: orange;
+}
+
+table {
+  border-collapse: collapse;
+  background: white;
+  color: black;
+  background-color:lightgrey; 
+  text-align:center;
+}
+
+th,td {
+  font-weight: bold;
+}
          
           
 
