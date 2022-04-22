@@ -1,0 +1,558 @@
+html{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    }
+    
+    .indexbody{
+      background-color: #adb6c4;
+    }
+    
+    .welcome1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 0px;
+    padding-top: 250px;
+    font-size:35px;
+    color: black
+    }
+    
+    .welcome{
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 10px;
+        font-size:100px;
+        font-size:9vw;
+        color: black;
+        }
+    
+    .welcome2{
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+        font-size:2vw;
+        }
+    
+        .homepic{
+            width: 500x;
+            height: 450px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 50%;
+            height: auto;
+            }
+        
+            #mySidenav a {
+                position: absolute; /* Position them relative to the browser window */
+                left: -110px; /* Position them outside of the screen */
+                transition: 0.3s; /* Add transition on hover */
+                padding: 12px; /* 15px padding */
+                width: 145px; /* Set a specific width */
+                text-decoration: none; /* Remove underline */
+                font-size: 20px; /* Increase font size */
+                color: black; /* Black text color */
+                border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+              }
+    
+              #mySidenav a:hover {
+                left: 0; /* On mouse-over, make the elements appear as they should */
+              }
+              
+              /* The index link: 20px from the top with a background */
+              #index {
+                top: 30px;
+                background-color: #FFEFD3; /* Papaya Whip */
+              }
+              
+              #atd {
+                top: 100px;
+                background-color:  #FFEFD3; /* Papaya Whip */
+              }
+              
+              #planner {
+                top: 170px;
+                background-color:  #FFEFD3; /* Papaya Whip  */
+              }
+              
+              #schedule{
+                top: 240px;
+                background-color:  #FFEFD3 /* Papaya Whip */
+              }
+    
+              #cal{
+                top: 310px;
+                background-color:  #FFEFD3 /* Papaya Whip */
+              }
+    
+              .fa-home{
+                font-size: 20px;
+                padding-left: 60px;
+                color: black;
+              }
+    
+              .fa-user-circle{
+                font-size: 20px;
+                padding-left: 15px;
+                color: black;
+              }
+    
+              .fa-calendar-day{
+                font-size: 20px;
+                padding-left: 40px;
+                color: black;
+              }
+    
+             .fa-clipboard-list{
+               font-size: 20px;
+               padding-left: 40px;
+               color: black;
+             }
+    
+             .fa-pencil-alt{
+              font-size: 20px;
+              padding-left: 43px;
+              color: black;
+             }
+    
+             @media screen and (max-width:700px) {
+    
+              #mySidenav a {
+                position: absolute; /* Position them relative to the browser window */
+                left: -110px; /* Position them outside of the screen */
+                transition: 0.3s; /* Add transition on hover */
+                padding: 15px; /* 15px padding */
+                width: 120px; /* Set a specific width */
+                text-decoration: none; /* Remove underline */
+                font-size: 15px; /* Increase font size */
+                color: black; /* Black text color */
+                border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+              }
+    
+              .fa-home{
+                font-size: 15px;
+                padding-left: 62px;
+              }
+    
+              .fa-user-circle{
+                font-size: 15px;
+                padding-left: 30px;
+              }
+    
+              .fa-calendar-day{
+                font-size: 15px;
+                padding-left: 48px;
+              }
+    
+             .fa-clipboard-list{
+               font-size: 15px;
+               padding-left: 49px;
+             }
+    
+             .fa-pencil-alt{
+              font-size: 15px;
+              padding-left: 50px;
+             }
+               
+             }
+    
+    /* Planner Page */
+    
+    /* Planner (Table)*/
+    
+             table {
+              font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+              width: 80%;
+              margin-left: 200px;
+            }
+    
+            .plan-margin{
+              margin-top: 50px;
+            }
+    
+            th{
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px; 
+            }
+            
+            td{
+              border: 1px solid white;
+              text-align: left;
+              padding: 8px;
+              height: 100px;
+            }
+            
+           
+            .planner{
+              padding-left: 200px;
+              text-align: center;
+              color: #294c60;
+            }
+    
+            .plan-row{
+              text-align: center;
+              font-size: 20px;
+              background-color: #294c60;
+              color: aliceblue;
+              padding-bottom: 20px;
+            }
+    
+            .atdbody{
+              background-color: #adb6c4;
+            }
+    
+            .classes{
+              width: 150px;
+              text-align: center;
+              background-color: #294c60;
+              color: aliceblue; 
+              padding-bottom: 20px;
+              font-size: 20px;
+            }
+    
+            .plan-color{
+              background-color: #adb6c4;
+            }
+    
+    
+          /*Attendance Page */
+    
+          .atdtitle{
+            padding-left: 200px;
+          }
+    
+          .atd2{
+             color: black;
+             
+          }
+    
+          .class-head{
+            width: 60%
+          }
+    
+          .atdcol{
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            height: 30px;
+          }
+          table {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            width: 80%;
+            margin-left: 200px;
+          }
+    
+          th{
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px; 
+          }
+         
+          .atdcol-head{
+            font-weight: bold;
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            height: 60px;
+          }
+    
+          /* Attendance Flip cards */
+          .flip-card {
+      background-color: transparent;
+      width: 200px;
+      height: 200px;
+      padding-left: 200px;
+      padding-top: 5%;
+    }
+    
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+    
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+    
+    .flip-card-front {
+      background-image:url("https://scontent.fakl5-1.fna.fbcdn.net/v/t1.6435-9/107516066_101055118355759_1655349980660653969_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=15Ulos2s3E4AX8m6IOM&_nc_ht=scontent.fakl5-1.fna&oh=00_AT_EeY7Q0CupaoGqjAOJVWBOI4gI9EO4m5f0GFGy41WWcQ&oe=625DEEF2");
+      color: white;
+    }
+    
+    .flip-card-back {
+      background-color: #FFEFD3;
+      color: black;
+      transform: rotateY(180deg);
+    }
+    
+    /* Schedule page */
+    
+    .sch-title{
+      padding-left: 10%;
+      font-size: 50px;
+      text-align: center;
+    }
+    
+    hr{
+      width: 85%;
+      text-align: center;
+      border: 1px solid black;
+      margin-bottom: 30px;
+    }
+    
+    .schbody{
+      background-color: #ADB6C4;
+      
+    }
+    
+    .sch-head{
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px; 
+      background-color: #294c60;
+      color: aliceblue;
+      width: 15%;
+    }
+    
+    .sch-table-top{
+      font-weight: bold;
+      color: #001B2E;
+      height: 150px;
+    
+      width:5%
+    }
+    
+    
+      
+    .sch {
+     
+    }
+    
+    /*calendar page */
+    
+    .calender{
+      text-align: center;
+      color: black;
+      padding-top: 10px;
+      font-size: 30px;
+    }
+    
+    table {
+      border-collapse: collapse;
+      background: white;
+      color: black;
+      background-color:lightgrey; 
+      text-align:center;
+    }
+    
+    
+    .cal-header{
+      color: white; 
+      background: #001B2E;
+      font-weight: bold;
+      text-align: center;
+      background-color: #294c60;
+    }
+    
+    .cal-td{
+      
+    }
+    
+    .cal-color{
+      background-color: #ADB6C4;
+    }
+    
+    caption{
+      text-align: top;
+    }
+    
+    .cal-{
+      border-collapse: collapse;
+      background-color: grey;
+      color: black;
+      text-align:center;
+    }
+    
+    /*To-do list */
+    
+    /* Basic Style */
+    
+    body {
+        background: #fff;
+        color: #333;
+        font-family: Lato, sans-serif;
+        background-color:#e4e4e4;
+    }
+    
+    .container {
+        display: block;
+        width: 400px;
+        margin: 10px auto 100px;
+        background-color:#fff;
+        padding:0px 10px 10px 10px;
+        border-radius:10px
+    }
+    
+    h2 {
+        text-align:center;
+        padding-top:10px;
+        margin-bottom:0px;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    li * {
+        float: left;
+    }
+    
+    li,
+    h3 {
+        clear: both;
+        list-style: none;
+    }
+    
+    input,
+    button {
+        outline: none;
+    }
+    
+    button {
+        background: none;
+        border: 0px;
+        color: #888;
+        font-size: 15px;
+        width: 60px;
+        margin: 10px 0 0;
+        font-family: Lato, sans-serif;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        color: #333;
+    }
+    
+    
+    /* Heading */
+    
+    h3,
+    label[for='new-task'] {
+        color: #333;
+        font-weight: 700;
+        font-size: 15px;
+        border-bottom: 2px solid #333;
+        padding: 20px 0 10px;
+        margin: 0;
+        text-transform: uppercase;
+    }
+    
+    input[type="text"] {
+        margin: 0;
+        font-size: 18px;
+        line-height: 18px;
+        height: 18px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        background: #fff;
+        border-radius: 6px;
+        font-family: Lato, sans-serif;
+        color: #888;
+    }
+    
+    input[type="text"]:focus {
+        color: #333;
+    }
+    
+    
+    /* New Task */
+    
+    label[for='new-task'] {
+        display: block;
+        margin: 0 0 20px;
+    }
+    
+    input#new-task {
+        float: left;
+        width: 318px;
+    }
+    
+    p > button:hover {
+        color: #0FC57C;
+    }
+    
+    
+    /* Task list */
+    
+    li {
+        overflow: hidden;
+        padding: 20px 0;
+        border-bottom: 1px solid #eee;
+    }
+    
+    li > input[type="checkbox"] {
+        margin: 0 10px;
+        position: relative;
+        top: 15px;
+    }
+    
+    li > label {
+        font-size: 18px;
+        line-height: 40px;
+        width: 237px;
+        padding: 0 0 0 11px;
+    }
+    
+    li > input[type="text"] {
+        width: 226px;
+    }
+    
+    li > .delete:hover {
+        color: #CF2323;
+    }
+    
+    
+    /* Completed */
+    
+    #completed-tasks label {
+        text-decoration: line-through;
+        color: #888;
+    }
+    
+             
+              
+    
+    
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
