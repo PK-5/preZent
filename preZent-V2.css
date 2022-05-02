@@ -33,7 +33,7 @@ html{
 
     .welcome1{
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 0px;
     padding-top: 250px;
     font-size:35px;
@@ -74,8 +74,9 @@ html{
                 width: 145px; /* Set a specific width */
                 text-decoration: none; /* Remove underline */
                 font-size: 20px; /* Increase font size */
-                color: black; /* Black text color */
+                color: white; /* Black text color */
                 border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
               }
     
               #mySidenav a:hover {
@@ -85,57 +86,47 @@ html{
               /* The index link: 20px from the top with a background */
               #index {
                 top: 30px;
-                background-color: #FFEFD3; /* Papaya Whip */
+                background-color: #750D37; /* Papaya Whip */
               }
               
               #atd {
                 top: 100px;
-                background-color:  #FFEFD3; /* Papaya Whip */
+                background-color:  #750D37; /* Papaya Whip */
               }
               
-              #planner {
+              #mark {
                 top: 170px;
-                background-color:  #FFEFD3; /* Papaya Whip  */
+                background-color:  #750D37; /* Papaya Whip  */
               }
               
               #schedule{
                 top: 240px;
-                background-color:  #FFEFD3 /* Papaya Whip */
+                background-color:  #750D37 /* Papaya Whip */
               }
-    
-              #cal{
-                top: 310px;
-                background-color:  #FFEFD3 /* Papaya Whip */
-              }
-    
+  
               .fa-home{
                 font-size: 20px;
                 padding-left: 60px;
-                color: black;
+                color: white;
               }
     
               .fa-user-circle{
                 font-size: 20px;
                 padding-left: 15px;
-                color: black;
+                color: white;
               }
     
-              .fa-calendar-day{
-                font-size: 20px;
-                padding-left: 40px;
-                color: black;
-              }
     
              .fa-clipboard-list{
                font-size: 20px;
                padding-left: 40px;
-               color: black;
+               color: white;
              }
     
              .fa-pencil-alt{
               font-size: 20px;
-              padding-left: 43px;
-              color: black;
+              padding-left: 24px;
+              color: white;
              }
     
              @media screen and (max-width:700px) {
