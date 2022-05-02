@@ -17,6 +17,20 @@ html{
       width: 100%;
     }
 
+    .title{
+      padding-left: 10%;
+      font-size: 50px;
+      text-align: center;
+    }
+    
+    hr{
+      width: 85%;
+      text-align: center;
+      border: 1px solid black;
+      margin-bottom: 30px;
+    }
+    
+
     .welcome1{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -310,18 +324,6 @@ html{
     
     /* Schedule page */
     
-    .sch-title{
-      padding-left: 10%;
-      font-size: 50px;
-      text-align: center;
-    }
-    
-    hr{
-      width: 85%;
-      text-align: center;
-      border: 1px solid black;
-      margin-bottom: 30px;
-    }
     
     .schbody{
       background-color: #ADB6C4;
