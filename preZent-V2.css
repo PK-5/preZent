@@ -18,8 +18,9 @@ html{
     }
 
     .title{
-      padding-left: 10%;
-      font-size: 50px;
+      padding-left: 5%;
+      font-size: 40px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       text-align: center;
     }
     
@@ -375,10 +376,6 @@ html{
       background-color: #294c60;
     }
     
-    .cal-td{
-      
-    }
-    
     .cal-color{
       background-color: #ADB6C4;
     }
@@ -540,6 +537,11 @@ html{
         text-decoration: line-through;
         color: #888;
     }
+
+    
+
+    /*Markbook page */
+
     
              
               
