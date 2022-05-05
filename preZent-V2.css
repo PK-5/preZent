@@ -31,6 +31,12 @@ html{
       margin-bottom: 30px;
     }
     
+    .fa-question-circle{
+      font-size: 30px;
+      color: white;
+      padding: 7px;
+      margin-left: 95%;
+    }
 
     .welcome1{
     text-align: center;
@@ -317,27 +323,31 @@ html{
     /* Schedule page */
     
     
-    .schbody{
-      background-color: #ADB6C4;
-      
+    .sch{
+      background-color: #f4edea;
+      border: 1px solid #12263a;
     }
     
     .sch-head{
-      border: 1px solid #dddddd;
+      border: 1px solid #12263a;
       text-align: left;
       padding: 8px; 
-      background-color: #294c60;
+      background-color: #12263a;
       color: aliceblue;
       width: 15%;
     }
     
     .sch-table-top{
       font-weight: bold;
-      color: #001B2E;
+      background-color: #f4edea;
       height: 150px;
-    
-      width:5%
+      width:5%;
+      border: 1px solid #12263a;
     }
+  
+    
+    
+      
 
     
     /*calendar page */
@@ -532,9 +542,6 @@ html{
 
     /*Markbook page */
 
-.mrk-head{
-  
-}
     
              
               
