@@ -542,6 +542,18 @@ html{
 
     /*Markbook page */
 
+    .mrk-head{
+      width: 30%;
+      text-align: center;
+    }
+
+    .mark-class{
+     font-weight: bold;
+    }
+    
+
+   
+
     
              
               
