@@ -310,7 +310,7 @@ html{
     }
     
     .flip-card-front {
-      background-image:url("https://images.unsplash.com/photo-1546497974-b213c9efb599?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80");
+      background-image:url("Flip-Card\ bg.webp");
       color: white;
     }
     
@@ -544,6 +544,7 @@ html{
 
     .mrk-head{
       width: 30%;
+      height: 50px;
       text-align: center;
     }
 
