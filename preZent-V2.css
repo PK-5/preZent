@@ -505,14 +505,69 @@ html{
     /*Markbook page */
 
     .mrk-head{
-      width: 30%;
-      height: 50px;
+
       text-align: center;
+      height: 40px;
+      font-weight: bold;
+      border: 1px solid #12263a;
+      padding: 8px; 
+      background-color: #12263a;
+      color: aliceblue;
     }
 
-    .mark-class{
+    .mrk-row{
+      height: 40px;
+      background-color: #f4edea;
+      border: 1px solid #12263a;
+    }
+
+    .fa-plus-circle{
+      font-size: 25px;
+      color: white;
+      padding: 7px;
+      margin-left: 93%;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+    }
+
+    .mrk-name{
+      width: 25%;
+      font-weight: bold;
+      text-align: center;
+      height: 40px;
+      border: 1px solid #12263a;
+      padding: 8px; 
+      background-color: #12263a;
+      color: aliceblue;
+    }
+
+    .mrk-mrk{
+      width: 10%;
+      font-weight: bold;
+      text-align: center;
+      height: 40px;
+      border: 1px solid #12263a;
+      padding: 8px; 
+      background-color: #12263a;
+      color: aliceblue;
+    }
+
+    .mrk-schcls{
+     height: 4px;
+     background-color: lightgrey;
+     border-bottom:1px solid #12263a;
+     border-left:1px solid #12263a;
+     border-right: lightgrey;
+     font-size: small;
      font-weight: bold;
     }
+
+    
+
+    
+
+    
+  
     
 
     /* Responsive Screen */
