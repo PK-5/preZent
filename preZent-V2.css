@@ -288,6 +288,7 @@ html{
     .sch{
       background-color: #f4edea;
       border: 1px solid #12263a;
+      margin-bottom: 100px;
     }
     
     .sch-head{
@@ -554,6 +555,10 @@ html{
      border-right: lightgrey;
      font-size: small;
      font-weight: bold;
+    }
+
+    .mark-class{
+      margin-bottom: 100px;
     }
 
     
